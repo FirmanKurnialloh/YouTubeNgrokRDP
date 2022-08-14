@@ -40,9 +40,6 @@ jobs:
       - name: Install Winrar...
         run: cmd /c C:\Users\Public\Desktop\winrar.exe winrar.exe /s
 
-      - name: Install CCLeaner...
-        run: cmd /c C:\Users\Public\Desktop\ccsetup602.exe ccsetup.exe /s
-
       - name: Extracting Chrome Shortcuts...
         run: Expand-Archive -LiteralPath 'C:\Users\Public\Desktop\10ChromeShortcuts.zip' -DestinationPath C:\Users\Public\Desktop\10ChromeShortcuts
 
